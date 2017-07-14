@@ -1,0 +1,7 @@
+modification in version 2
+1. use vector tightBindex mediumBindex looseBindex to store the index of b-jets
+2. replace abs() function in version 1 with fabs()
+3. in track veto part, use EFlowTrack for hadronic tracks
+4. select the 4 b-jets with a easier way using *Bindex
+5. in \Delta\phi_{1,2,3,4} selection, correct the 1st,2nd,3rd,4th leading jets selection by removing jets out-of kimenatic acceptance range.
+

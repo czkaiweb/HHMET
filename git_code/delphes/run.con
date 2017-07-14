@@ -1,0 +1,5 @@
+Universe       = vanilla
+Notification   = never
+Priority       = +10
+GetEnv         = true
+Initialdir     = /home/weikai/work/calchep/delphes

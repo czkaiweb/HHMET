@@ -1,0 +1,21 @@
+# This is a minimal working example
+# read example_run_cards/all_parameters_explained.dat 
+# for all details
+
+[Parameters]
+#Name: gYqq0.05MY600MF200
+#OutputDirectory: /home/weikai/work/calchep/delphes_results/HHMET
+Name:ttbar
+OutputDirectory: /home/weikai/work/calchep/delphes_results/HHMET
+# lhe-pythia8-delphes
+Analyses: cms 
+SkipAnalysis: True
+SkipEvaluation: True
+SkipParamCheck: True
+WriteDelphesEvents: True
+OutputExists: Overwrite
+
+[myprocess]
+Pythia8Card: pythia8card.dat
+#Delphes3Card: /home/weikai/work/tools/Delphes-3.4.0/cards/delphes_card_ATLAS.tcl
+#testpythia8card.in

@@ -1,0 +1,14 @@
+! Settings used in the main program.
+Main:numberOfEvents = 10000          ! number of events to generate
+Main:timesAllowErrors = 3          ! how many aborts before run stops
+Init:showChangedSettings = on      ! list changed settings
+Init:showChangedParticleData = off ! list changed particle data
+Init:showOneParticleData = 36      ! print data for this particular particle
+Next:numberCount = 500             ! print message every n events
+Next:numberShowInfo = 2            ! print event information n times
+Next:numberShowProcess = 2         ! print process record n times
+Next:numberShowEvent = 2           ! print event record n times
+Main:numberOfEvents = 10000          ! number of events to generate
+Beams:frameType = 4                ! use LHEF input
+!Beams:LHEF == Ys-Ff-s-channel_dijet-gYqq0.05MY600MF200.lhe !  LHEF events file
+Beams:LHEF == ttbar.lhe
